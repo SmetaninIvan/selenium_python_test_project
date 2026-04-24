@@ -1,7 +1,6 @@
 import time
-
-from selenium_python_test_project.pages.homepage import HomePage
-from selenium_python_test_project.pages.product import ProductPage
+from ..pages.homepage import HomePage
+from ..pages.product import ProductPage
 
 
 def test_open_s6(browser):
